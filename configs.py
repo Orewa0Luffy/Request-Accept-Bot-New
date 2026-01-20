@@ -42,7 +42,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Spidey")
 #--------------------------------------------        
 LOG_CHANNEL = int(getenv("LOG_CHANNEL", "-1002294764885"))
 #--------------------------------------------  
-CAPTCHA_JOIN_PROTECTION = is_enabled(getenv("CAPTCHA_JOIN_PROTECTION", "True"), True)
+CAPTCHA_JOIN_PROTECTION = is_enabled(getenv("CAPTCHA_JOIN_PROTECTION", "False"), True)
 CAPTCHA_IMG = environ.get("CAPTCHA_IMG", "https://i.ibb.co/WpjrRnvK/photo-2025-05-29-15-31-25-7509890741011742736.jpg")
 #--------------------------------------------    
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002294764885'))
