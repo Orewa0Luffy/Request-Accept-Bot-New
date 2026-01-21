@@ -54,23 +54,23 @@ async def on_callback_query(_, callback_query: CallbackQuery):
                         "ʀᴇᴍᴏᴠᴇʙɢ", callback_data="close_data"
                     ),
                     InlineKeyboardButton(
-                        "ʟɪᴠᴇ ɪᴘʟ 🏏", url="https://t.me/spideyofficialupdatez"
+                        "ʟɪᴠᴇ ɪᴘʟ 🏏", url="https://t.me/Union_Botss"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "Rɪɴɢᴛᴏɴᴇ", url="https://example.com/ringtone"
+                        "Rɪɴɢᴛᴏɴᴇ", url="https://t.me/Union_Botss"
                     ),
                     InlineKeyboardButton("Cʜᴀᴛɢᴘᴛ", url="https://example.com/chatgpt"),
                     InlineKeyboardButton("Oᴡɴᴇʀ", callback_data="spidey"),
                 ],
                 [
-                    InlineKeyboardButton("Mᴏᴠɪᴇs", url="https://example.com/movies"),
+                    InlineKeyboardButton("Mᴏᴠɪᴇs", url="https://t.me/Union_Botss"),
                     InlineKeyboardButton(
-                        "Uᴘᴅᴀᴛᴇs", url="https://t.me/live_update_channel"
+                        "Uᴘᴅᴀᴛᴇs", url="https://t.me/Union_Botss"
                     ),
                     InlineKeyboardButton(
-                        "Sᴜᴘᴘᴏʀᴛ", url="https://t.me/SPIDEYOFFICIAL777"
+                        "Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Union_Botss"
                     ),
                 ],
                 [InlineKeyboardButton("⋞ Back", callback_data="back")],
@@ -92,7 +92,7 @@ async def on_callback_query(_, callback_query: CallbackQuery):
                 [InlineKeyboardButton("‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️", callback_data="disclaimer")],
                 [
                     InlineKeyboardButton(
-                        "• ᴠɪsɪᴛ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ •", url="t.me/SPIDEYOFFICIAL_777"
+                        "• ᴠɪsɪᴛ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ •", url="https://t.me/Union_Botss"
                     )
                 ],
                 [
@@ -121,7 +121,7 @@ async def on_callback_query(_, callback_query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "📲 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴏᴡɴᴇʀ", url="https://t.me/hacker_x_official_777"
+                        "📲 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴏᴡɴᴇʀ", url="https://t.me/Union_Botss"
                     )
                 ],
                 [InlineKeyboardButton("⪻ ʙᴀᴄᴋ", callback_data="about")],
@@ -153,7 +153,7 @@ async def on_callback_query(_, callback_query: CallbackQuery):
                 )
                 ],
                 [
-                    InlineKeyboardButton("🚀 Channel", url="https://t.me/SPIDEYOFFICIAL_777"),
+                    InlineKeyboardButton("🚀 Channel", url="https://t.me/Union_Botss"),
                     InlineKeyboardButton("💬 Sᴜᴘᴘᴏʀᴛ", callback_data="group_info"),
             ],
             [
@@ -183,24 +183,24 @@ async def on_callback_query(_, callback_query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton(
-                    "× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×", url="https://t.me/SPIDEYOFFICIAL777"
+                    "× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×", url="https://t.me/Union_Botss"
                 )
             ],
             [
-                InlineKeyboardButton("• ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ •", url="https://t.me/+KTXnXf_YPxJlOGRl"),
+                InlineKeyboardButton("• ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ •", url="https://t.me/Union_Botss"),
                 InlineKeyboardButton(
-                    "• ᴜᴘᴅᴀᴛᴇs •", url="https://t.me/SpideyOfficialUpdatez"
+                    "• ᴜᴘᴅᴀᴛᴇs •", url="https://t.me/Union_Botss"
                 ),
             ],
             [
-                InlineKeyboardButton("• ʜᴀᴄᴋ •", url="https://t.me/+cMlrPqMjUwtmNTI1"),
+                InlineKeyboardButton("• ʜᴀᴄᴋ •", url="https://t.me/Union_Botss"),
                 InlineKeyboardButton(
-                    "• 𝟷𝟾+ 🚫 •", url="https://t.me/+WCbiy07x2uVjNzVl"
+                    "• 𝟷𝟾+ 🚫 •", url="https://t.me/Union_Botss"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "• ᴄɪɴᴇғʟɪx •", url="https://t.me/+QVmLP_hlHNw3M2I1"
+                    "• ᴄɪɴᴇғʟɪx •", url="https://t.me/Union_Botss"
                 )
             ],
             [
