@@ -86,10 +86,10 @@ async def start(bot, message):
         buttons = [
             [InlineKeyboardButton('• ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀᴛ •', url=f'http://t.me/{temp.U_NAME}?startgroup=true')],
             [
-                InlineKeyboardButton('• ᴍᴀsᴛᴇʀ •', url="https://t.me/hacker_x_official_777"),
-                InlineKeyboardButton('• sᴜᴘᴘᴏʀᴛ •', url='https://t.me/deathchatting_world')
+                InlineKeyboardButton('• ᴍᴀsᴛᴇʀ •', url="https://t.me/Union_Botss"),
+                InlineKeyboardButton('• sᴜᴘᴘᴏʀᴛ •', url='https://t.me/Union_Botss')
             ],
-            [InlineKeyboardButton('• ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ •', url="https://t.me/+9tdbATrOMLNlN2I1")]
+            [InlineKeyboardButton('• ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ •', url="https://t.me/Union_Botss")]
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(
@@ -125,9 +125,9 @@ async def start(bot, message):
 
         keyboard = InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("➕ Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ ➕", url="https://t.me/SPIDER_MAN_GAMING_bot?startchannel=Bots4Sale&admin=invite_users+manage_chat")],
+                [InlineKeyboardButton("➕ Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ ➕", url="https://t.me/Union_Botss")],
                 [
-                    InlineKeyboardButton("🚀 Cʜᴀɴɴᴇʟ", url="https://t.me/+cMlrPqMjUwtmNTI1"),
+                    InlineKeyboardButton("🚀 Cʜᴀɴɴᴇʟ", url="https://t.me/Union_Botss"),
                     InlineKeyboardButton("💬 Sᴜᴘᴘᴏʀᴛ", callback_data="group_info")
                 ],
                 [
@@ -167,7 +167,7 @@ async def start(bot, message):
             photo=welcome_image,
             caption=f"<b>⚠️ Access Denied! ⚠️\n\n🔥 Hello {message.from_user.mention}!\n\n"
                     "You need to join all required channels before proceeding!\n\n"
-                    "👉 [✨ Join Now ✨](https://t.me/SPIDEYOFFICIAL777)</b>",
+                    "👉 [✨ Join Now ✨](https://t.me/Union_Botss)</b>",
             reply_markup=keyboard
         )
 
@@ -203,8 +203,8 @@ async def check_subscription(client, callback_query: CallbackQuery):
         # If user is subscribed, show main menu
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("➕ Add Me to Your Channel ➕", url="https://t.me/SPIDER_MAN_GAMING_bot?startchannel=Bots4Sale&admin=invite_users+manage_chat")],
-            [InlineKeyboardButton("🚀 Channel", url="https://t.me/+cMlrPqMjUwtmNTI1"),
-             InlineKeyboardButton("💬 Support", url="https://t.me/SPIDEYOFFICIAL777")],
+            [InlineKeyboardButton("🚀 Channel", url="https://t.me/Union_Botss"),
+             InlineKeyboardButton("💬 Support", url="https://t.me/Union_Botss")],
             [InlineKeyboardButton("➕ Add Me to Your Group ➕", url="https://t.me/SPIDER_MAN_GAMING_bot?startgroup=true")]
         ])
 
@@ -309,8 +309,8 @@ async def broadcast_users(bot, message):
         f"✅ **Successful:** `{success}`\n"
         f"❌ **Failed:** `{failed}`\n"
         f"🕒 **Time Taken:** `{round(time.time() - start_time, 2)} sec`\n\n"
-        f"🚀 **Broadcast by [Spidey](https://t.me/SPIDEYOFFICIAL777)**\n"
-        f"🔹 **Follow [Spidey Network](https://t.me/SPIDEY_CINEMA_X_AI_BOT)**"
+        f"🚀 **Broadcast by [Spidey](https://t.me/Union_Botss)**\n"
+        f"🔹 **Follow [Spidey Network](https://t.me/Union_Botss)**"
 
     )
 @app.on_message(filters.command("send") & filters.user(ADMINS))
